@@ -131,6 +131,8 @@ bool Vestaboard::L2_sendPacket(uint16_t addr, uint8_t flags, uint8_t* payload, u
 
     // Free buffer
     free(sendBuffer);
+    
+    return true; // TODO: Check if send failed
 }
 
 bool Vestaboard::L2_sendCommand(uint8_t addr, uint8_t commandId)
