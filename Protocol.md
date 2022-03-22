@@ -96,7 +96,7 @@ For some reason there are not 6 but 7 characters in each column, comments in the
 |--|--|--|
 | 0 | 1 | Packet ID(0x05) |
 | 1 | 1 | Register ID |
-| 2 | 1 | Register Value |
+| 2 | 2 | Register Value |
 
 ## 0x06 - Read Register
 
